@@ -8,12 +8,14 @@ Ho una lista di idee regalo
     - Prendo un oggetto dalla lista
         - **SE NON** ha consegna prime
             - Depenno dalla lista e torno al primo SE NON
-        - **SE** è fuori budget
-            - Depenno dalla lista e torno al primo SE NON
-        - **SE NON** è un libro classico
-            - Depenno dalla lista e torno al primo SE NON
-        - **SE** rispetta tutte le condizioni correttamente 
-            - Torno a FINE
+        - **ALTRIMENTI**
+            - **SE** è fuori budget
+                - Depenno dalla lista e torno al primo SE NON
+            - **ALTRIMENTI**
+                - **SE NON** è un libro classico
+                    - Depenno dalla lista e torno al primo SE NON
+                - **ALTRIMENTI**
+                    - Torno a FINE
     
 
 
